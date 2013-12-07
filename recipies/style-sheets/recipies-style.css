@@ -1,0 +1,184 @@
+/* Cross Browser Compatability CSS */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+/* My CSS STARTS HERE!!!!! */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+html{
+	background-image:url('../../images/global-assets/background-01.png');
+	background-repeat:repeat;
+}
+
+body {
+	margin: 50px auto;
+	padding: 35px;
+	width: 800px;
+	background-color: #ffffff;	
+    border-radius: 10px;
+}
+
+#intro {
+	font-family: 'Kite One', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	clear:both;
+}
+
+h1{
+	font-family: 'Cantora One', sans-serif;
+	color:#66452F;
+	font-size: 30px;
+	margin: 15px 15px 15px 0; 	
+}
+
+h2 {
+	font-style: bold;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: #4F6163; 
+	margin: 15px 15px 15px 0;
+}
+
+h3 {
+	font-style: normal;
+	font-family: Helvetica;
+	font-size: 20px;
+	color: #4F6163;
+	margin: 15px 0 5px; 0;
+}
+
+h4 {
+    font-style:italic;
+    font-family: Helvetica;
+    color: #768687;
+    margin-bottom: 25px;
+}
+p {
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px;
+	color:#9B7053;
+	line-height: 18px;	
+}
+
+#footer {
+	clear:left;
+	font: 14px Helvetica;
+	color: #DDBFAB;
+}
+
+/*Logo*/
+
+#logo {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+footer {
+	font: bold 14px Helvetica;
+	color: #DDBFAB;
+}
+
+/**NAVIGATION**/
+
+#nav {
+	width: 525px;
+	margin: 0 auto 30px auto;
+	background-color: #82A5AD;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav li {
+	display:inline-block;
+	text-align:center;
+	border-right: 1px solid #fff; 
+}
+
+#nav li.last-child {
+	border-right: 0;
+}
+
+#nav li:hover {
+	color: #fff;
+	background-color: #789A9B; 
+}
+
+#nav li a {
+	display: inline-block;
+	padding: 8px 55px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	font-family: 'Handlee', cursive;
+}
+
+
+/**RECIPIES**/
+
+.recipie-full {
+	float: left;
+	margin-right: 33px;
+}
+
+.recipie-description-first {
+	text-align: left;
+	display:inline-block;
+	width: 200px;
+	margin: 10px 10px 10px 0;
+}
+
+.recipie-description {
+	text-align: left;
+	display:inline-block;
+	width: 200px;
+	margin: 10px;
+}
+
+
